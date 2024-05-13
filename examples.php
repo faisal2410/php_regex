@@ -1,8 +1,6 @@
 <?php
 
-// please teach me regular expresssions following topic ``` Character classes, Anchors, Escaped characters, Groups & references, lookaround, Quantifiers & Alternation, Substitution, Flags ``` It is to be noted that I am using the programming language PHP. Please explain all the examples with code code examples.
-// ChatGPT
-// Sure, let's break down each of the topics you mentioned with examples in PHP.
+
 
 // ✅ Character classes: Character classes allow you to match any one of a set of characters.
 
