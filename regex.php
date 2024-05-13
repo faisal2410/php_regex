@@ -71,9 +71,12 @@
 
 // Uses of regex in PHP
 
-// PHP regular expressions are strings with pattern enclosing in delimiters for example "/pattern/".
+// 🔥🔥PHP regular expressions are strings with pattern enclosing in delimiters for example "/pattern/".
+
 // The preg_match() function searches for a match to a pattern in a string.
+
 // The preg_match_all() function searches for all matches to a pattern in a string.
+
 // The preg_replace() function searches a string for matches to a pattern and replaces them with a new string or pattern.
 // Let’s look into some regex example in PHP
 
@@ -101,16 +104,16 @@ To get the text that matches the pattern, you add the third parameter to the pre
 
 */
 
-$pattern = '/\d+/';
-$message = 'PHP 8 was released on November 26, 2020';
+// $pattern = '/\d+/';
+// $message = 'PHP 8 was released on November 26, 2020';
 
-if (preg_match($pattern, $message, $matches)) {
-    echo "<pre>";
-    print_r($matches);
-    echo "</pre>";
-}
+// if (preg_match($pattern, $message, $matches)) {
+//     echo "<pre>";
+//     print_r($matches);
+//     echo "</pre>";
+// }
 
-echo "<hr>";
+// echo "<hr>";
 
 /*
 🔥The preg_match_all() function searches for all matches to a regular expression. For example:
@@ -118,26 +121,26 @@ echo "<hr>";
 */
 
 
-$pattern = '/\d+/';
-$message = 'PHP 8 was released on November 26, 2020';
+// $pattern = '/\d+/';
+// $message = 'PHP 8 was released on November 26, 2020';
 
-if (preg_match_all($pattern, $message, $matches)) {
-    print_r($matches);
-}
+// if (preg_match_all($pattern, $message, $matches)) {
+//     print_r($matches);
+// }
 
-echo "<hr>";
+// echo "<hr>";
 
 /*
 🔥To replace strings that match a regular expression, you use the preg_replace() function. For example:
 */
 
 
-$pattern = '/\d+/';
-$message = 'PHP 8 was released on 11/26/2020';
+// $pattern = '/\d+/';
+// $message = 'PHP 8 was released on 11/26/2020';
 
-echo preg_replace($pattern, 'digit', $message);
+// echo preg_replace($pattern, 'digit', $message);
 
-echo "<hr>";
+// echo "<hr>";
 
 
 /*
@@ -206,9 +209,10 @@ echo "<hr>";
 // echo preg_replace($pattern, $replacement, $string);
 
 // Split a string
-$pattern = '/\s+/'; // Match one or more whitespace characters
-$string = 'This is a sentence';
-print_r(preg_split($pattern, $string));
+
+// $pattern = '/\s+/'; // Match one or more whitespace characters
+// $string = 'This is a sentence';
+// print_r(preg_split($pattern, $string));
 
 // 6. Conclusion:
 // Regular expressions are powerful tools for string manipulation in PHP. They provide a flexible way to search, match, and replace patterns within strings. However, they can be complex and challenging to master, so it's essential to practice and experiment with them.

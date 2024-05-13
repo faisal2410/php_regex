@@ -1,16 +1,56 @@
 <?php
-// echo "<h1>Regular Expression</h1>";
+echo "<h1>Regular Expression</h1> <hr>";
 
-// $str= "Bangladesh is a very nice country. I love Bangladesh very much.";
+
+// ✅Example 1
+
+$str= "Bangladesh is a very nice country. I love Bangladesh very much.";
 // $str= "I love Bangladesh very much.";
 
-// if(preg_match("/Bangladesh/",$str)){
-//     echo "Found";
+if(preg_match("/Bangladesh/",$str)){
+    echo "Found";
 
-// }else{
-//     echo "Not Found";
+}else{
+    echo "Not Found";
+}
+
+
+//  ✅Example 2
+
+
+// $pattern = '/\d+/';
+// $message = 'PHP 8 was released on November 26, 2020';
+
+// if (preg_match_all($pattern, $message, $matches)) {
+//   print_r($matches);
 // }
 
+// echo "<hr>";
+
+
+// ✅ Example 3
+
+// $pattern = '/\d+/';
+// $message = 'PHP 8 was released on 11/26/2020';
+
+// $replaced_message= preg_replace($pattern, 'digit', $message);
+
+// echo $replaced_message;
+
+// echo "<hr>";
+
+
+
+// ✅ Example 4
+
+// Split a string
+
+// $pattern = '/\s+/'; // Match one or more whitespace characters
+// $string = 'This is a sentence';
+// echo "<pre>";
+// print_r(preg_split($pattern, $string));
+
+// echo "</pre>";
 
 // if(preg_match("/^Bangladesh/",$str)){
 //     echo "Found";
@@ -27,7 +67,7 @@
 // }
 
 
-echo "<h1>Regular Expression</h1><hr>";
+// echo "<h1>Regular Expression</h1><hr>";
 
 // $name="Faisal";
 
@@ -40,8 +80,8 @@ echo "<h1>Regular Expression</h1><hr>";
 // $test=str_replace("blue","red","Roses and blue");
 // echo $test;
 
-$new_test=str_contains("Faisal likes chocolate","choc");
-echo $new_test;
+// $new_test=str_contains("Faisal likes chocolate","choc");
+// echo $new_test;
 
 // Fixed string comparison
 
