@@ -1,5 +1,9 @@
 # Regular Expression
 
+[Regular Expression Study Link](https://www.php.net/manual/en/book.pcre.php)
+
+[Regular Expression in PHP with Examples](https://mohasin-dev.medium.com/regex-regular-expression-in-php-you-should-know-f14ee1606b90)
+
 ## Patterns
 
 ### . = matches anything that has a single character
@@ -109,6 +113,8 @@
 ## https://regex101.com
 
 ## https://regexr.com/
+
+
 
 
 
